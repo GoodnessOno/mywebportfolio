@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mywebportfolio/static/css/main.48621832.css",
+    "main.js": "/mywebportfolio/static/js/main.a8ade662.js",
+    "static/js/453.115f85e8.chunk.js": "/mywebportfolio/static/js/453.115f85e8.chunk.js",
+    "static/media/aigenerated image.png": "/mywebportfolio/static/media/aigenerated image.7d423460ec8ffc738f4e.png",
+    "static/media/GOODNESS ONONOGBU LOGO.png": "/mywebportfolio/static/media/GOODNESS ONONOGBU LOGO.facd65a6a1b42a948d74.png",
+    "index.html": "/mywebportfolio/index.html",
+    "main.48621832.css.map": "/mywebportfolio/static/css/main.48621832.css.map",
+    "main.a8ade662.js.map": "/mywebportfolio/static/js/main.a8ade662.js.map",
+    "453.115f85e8.chunk.js.map": "/mywebportfolio/static/js/453.115f85e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48621832.css",
+    "static/js/main.a8ade662.js"
+  ]
+}
