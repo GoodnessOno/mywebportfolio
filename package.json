@@ -1,7 +1,6 @@
 {
   "name": "mywebportfolio",
   "version": "0.1.0",
-  "homepage": "https://goodnessono.github.io/mywebportfolio",
   "starturl": "/",
   "private": true,
   "dependencies": {
