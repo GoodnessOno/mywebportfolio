@@ -28,6 +28,10 @@
     flex-direction: row;
     width: 100%;
 }
+.navbar-links-container p:hover {
+    color: black;
+    text-decoration: underline;
+}
 .navbar-links-container p,
 .navbar-menu-container-links p {
     color: #fff;

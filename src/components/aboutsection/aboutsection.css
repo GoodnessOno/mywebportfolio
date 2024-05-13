@@ -1,3 +1,21 @@
+.aboutsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px; /* Set a maximum width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding and border in the total width */
+  }
+  
+  .aboutsection-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add some space below the image */
+  }
 .aboutsection-img img {
     width: 400px;
     height: 500px;
@@ -5,15 +23,31 @@
     border-style: groove;
     border-color: rgb(243, 244, 250);
     border-width: 10px;
-    justify-content: center;
-    display: flex; /* align content in about content to be center */
 }
-.aboutsection {
-    border: midnightblue;
-    border-style: double;
-    border-radius: 5px;
-    border-width: 15px;
+.aboutsection-content {
+   border: rgb(248, 248, 252);
+   border-style: double;
+   border-radius: 5px;
+   border-width: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 20px;
 }
-.aboutsection-content h1 p {
-    align-items: center;
+.aboutsection-content h1 
+.aboutsection-content p {
+    margin: 0;
+}
+.aboutsection-code {
+  background-color: white;
+  font-family: monospace;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }

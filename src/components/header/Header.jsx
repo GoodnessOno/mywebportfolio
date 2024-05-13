@@ -4,7 +4,7 @@ import './header.css'
 const Header = () => {
   return (
     <div className='header'>
-      <div className='header-content typewriter'>
+      <div className='header-content rotate-center'>
         <h1>SOFTWARE-DEVELOPER</h1>
         <h1>ARTIFICIAL INTELLIGENCE</h1>
         <h1>SUSTAINABILITY</h1>
@@ -13,4 +13,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

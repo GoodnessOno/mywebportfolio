@@ -6,4 +6,5 @@ export { default as Navbar } from './navbar/Navbar';
 export { default as Skills } from './skills/Skills';
 export { default as Projectsshowcase } from './projectsshowcase/Projectsshowcase';
 export { default as Resume } from './resume/Resume';
-
+export { default as Scrolltotopbutton} from './scrolltotopbutton/Scrolltotopbutton';
+export { default as Scrolltobottombutton} from './scrolltobottombutton/Scrolltobottombutton';
