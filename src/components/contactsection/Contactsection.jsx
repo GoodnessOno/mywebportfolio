@@ -3,8 +3,18 @@ import './contactsection.css'
 
 const Contactsection = () => {
   return (
-    <div>
-      
+    <div className='contactme'>
+      <div className='contactme-content'>
+        CONTACT ME
+        <div className='contactme-links'>
+          <h3>
+          LINKEDIN
+          GITHUB
+          EMAIL
+          KAGGLE
+          </h3>
+        </div>
+      </div>
     </div>
   )
 }

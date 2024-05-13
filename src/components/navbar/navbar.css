@@ -8,7 +8,7 @@
 }
 
 .navbar-links {
-    flex: 1;
+    flex: 2;
     display: flex;
     justify-content: flex-start;
     align-items: center;

@@ -1,0 +1,19 @@
+.aboutsection-img img {
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: rgb(243, 244, 250);
+    border-width: 10px;
+    justify-content: center;
+    display: flex; /* align content in about content to be center */
+}
+.aboutsection {
+    border: midnightblue;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 15px;
+}
+.aboutsection-content h1 p {
+    align-items: center;
+}
