@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Welcomepage = () => {
   return (
-    <div>
+    <div className='welcomepage'>
       <div className='logo'>
         <img src={logo} alt="logo" />
       </div>

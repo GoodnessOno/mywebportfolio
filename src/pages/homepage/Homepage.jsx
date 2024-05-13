@@ -4,7 +4,7 @@ import { Header, Navbar, Contactsection, Aboutsection, Skills, Projectsshowcase,
 
 const Homepage = () => {
   return (
-    <div>
+    <div className='homepage'>
       <Navbar />
       <Header />
       <Aboutsection />

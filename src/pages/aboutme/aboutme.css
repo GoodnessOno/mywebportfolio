@@ -3,3 +3,7 @@
     height: 500px;
     /*centralize image */
 }
+.aboutme {
+    position: relative;
+    z-index: 2; /* Ensure navbar is above particle background */
+}
