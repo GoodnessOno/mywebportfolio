@@ -66,7 +66,7 @@ function App() {
           default: 'bounce',
         },
         random: false,
-        speed: 6,
+        speed: 8,
         straight: false,
       },
       number: {
@@ -76,10 +76,10 @@ function App() {
         value: 80,
       },
       opacity: {
-        value: 0.5,
+        value: 1,
       },
       shape: {
-        type: 'square',
+        type: 'triangle',
       },
       size: {
         value: { min: 1, max: 5 },

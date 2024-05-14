@@ -46,3 +46,101 @@
               transform: rotate(360deg);
     }
 }
+/* Default styles */
+
+/* Media query for iMac */
+@media only screen and (min-width: 2560px) {
+    /* Styles for iMac */
+    .header {
+        max-width: 2560px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .header-content h1::first-letter {
+        font-size: 80px;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .header-content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+  }
+}
+  
+  /* Media query for small laptops */
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* Styles for small laptops */
+    .header-content h1::first-letter {
+        font-size: 50px;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .header-content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 10px;
+        width: 100%;
+  }
+  }
+  /* Media query for tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets */
+    .header-content h1::first-letter {
+        font-size: 40px;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        width: 800px;
+  }
+  }
+  
+  
+  /* Media query for medium phones */
+  @media only screen and (min-width: 360px) and (max-width: 425px) {
+    /* Styles for medium phones */
+    .header-content h1::first-letter {
+        font-size: 50px;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .header-content{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 420px;
+  }
+  .header-content h1 {
+    margin-right: 30px;
+  }
+  }
+  
+  /* Media query for small phones */
+  @media only screen and (max-width: 359px) {
+    /* Styles for small phones */
+    .header-content h1::first-letter {
+        font-size: 50px;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .header-content{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 420px;
+  }
+  .header-content h1 {
+    margin-right: 30px;
+  }
+  }
+  

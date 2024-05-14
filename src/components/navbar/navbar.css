@@ -84,9 +84,10 @@
         padding: 2rem 4rem;
     }
 }
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 325px) and (max-width: 550px) {
     .navbar {
         padding: 2rem;
+        margin-right: 20px;
     }
     .ziloop_navbar-sign {   
         display: none;
@@ -94,6 +95,11 @@
     .navbar-menu-container-links {
         top: 20px;
     }
+    .navbar-links-logo img {
+        margin-right: 50px;
+        height: 100px;
+    }
+    
 }
 @media screen and (min-width: 1450px) and (max-width: 2560px) {
     .navbar {
@@ -167,3 +173,4 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     }
 }
+   
