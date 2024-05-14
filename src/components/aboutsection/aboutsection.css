@@ -103,7 +103,7 @@
 
 
 /* Media query for tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   /* Styles for tablets */
   .aboutsection-code {
     font-size: 14px;
@@ -112,6 +112,21 @@
   }
   .aboutsection-content p {
     font-size: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* Styles for tablets */
+  .aboutsection-code {
+    font-size: 10.5px;
+    box-sizing: content-box;
+    padding: 5px;
+    margin-left: 30px;
+  }
+  .aboutsection-content p {
+    font-size: 25px;
+  }
+  .aboutsection-content {
+    margin-left: 30px;
   }
 }
 
