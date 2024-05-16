@@ -1,6 +1,6 @@
 import React from 'react'
 import './homepage.css'
-import { Header, Navbar, Contactsection, Aboutsection, Skills, Projectsshowcase, Resume, Footer, Scrolltotopbutton, Scrolltobottombutton } from '../../components'
+import { Header, Navbar, Contactsection, Aboutsection, Skills, Sidebar, Projectsshowcase, Resume, Footer, Scrolltotopbutton, Scrolltobottombutton } from '../../components'
 
 const Homepage = () => {
   return (
@@ -9,6 +9,7 @@ const Homepage = () => {
       <Header />
       <Aboutsection />
       <Skills />
+      <Sidebar />
       <Resume />
       <Projectsshowcase />
       <Contactsection />
