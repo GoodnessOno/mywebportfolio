@@ -1,4 +1,26 @@
 .blog-post-page {
     z-index: 2;
     position: relative;
+    margin: auto;
+}
+.blog-post-page p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 30px;
+}
+.blog-post-page h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 20px;
+}
+.blog-post-page h3 {
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 25px;
+}
+.blog-post-page small {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 25px;
+    background-color: aliceblue;
 }

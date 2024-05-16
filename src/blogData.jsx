@@ -2,6 +2,7 @@ const blogPosts = [
     {
         id: 1,
         title: 'Streamlining UI/UX Workflows: The Power of Design Systems in Front-End Development',
+        image: './assets/UI-UX-BLOG1.png',
         content: `
         <p>In the fast-paced world of front-end development, where every pixel counts and every interaction matters, maintaining consistency and efficiency is paramount. This is where design systems step in as the unsung heroes, revolutionizing how teams build and maintain user interfaces (UI) and user experiences (UX). 
         In this post, we will dive into the role of design systems in front-end development, uncovering their benefits and offering practical tips for creating and maintaining them effectively.</p> 
@@ -35,7 +36,7 @@ const blogPosts = [
         Design systems promote collaboration between designers and developers by providing a common language and reference point. This alignment fosters smoother communication, reduces misunderstandings, and ensures that everyone is working towards the same goal.
         </p>
 
-        <h2>Creating and Maintaining Design Systems</h2>
+        <h2>CREATING AND MAINTAINING DESIGN SYSTEMS</h2>
 
         <h3>1. Define Your Principles:</h3>
         <p>
@@ -68,7 +69,6 @@ const blogPosts = [
         </p>`,
         author: 'Goodness Ononogbu',
         tags: ['UI/UX', 'Design Systems'],
-        image: '../assets/blog-post-1.png',
         description: 'This is a short description of the blog post.',
         date: '2024-05-16',
     },

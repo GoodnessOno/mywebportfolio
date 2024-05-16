@@ -99,8 +99,8 @@ function App() {
             <Route exact path="/blog" element={<Blog />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/contactme" element={<Contactme />} />
-            <Route exact path="/" component={Sidebar} />
-            <Route exact path="/blog/:id" element={BlogPostPage} />
+            <Route exact path="/" component={<Sidebar />} />
+            <Route exact path="/blog/:id" element={<BlogPostPage />} />
           </Routes>
           {init && (
         <Particles

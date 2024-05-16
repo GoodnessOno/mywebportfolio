@@ -12,8 +12,9 @@ const BlogPostPage = () => {
             {post && (
                 <>
                     <h2>{post.title}</h2>
+                    <img src={post.image} alt={post.title} className="post-image" />
                     <div dangerouslySetInnerHTML={{ __html: post.content }} />
-                    <p>{post.author}</p>
+                    <small>{post.author}</small>
                     <small>{post.date}</small>
                 </>
             )}
