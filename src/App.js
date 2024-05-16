@@ -1,7 +1,6 @@
-import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme } from './pages';
+import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, BlogPostPage } from './pages';
 import './App.css';
 import { Sidebar } from './components';
-import BlogPostPage from './pages/Blogpostpage1/BlogPostPage';
 import React, { useState, useEffect, useMemo } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
@@ -101,7 +100,7 @@ function App() {
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/contactme" element={<Contactme />} />
             <Route exact path="/" component={Sidebar} />
-            <Route exact path="/blog/:1" component={BlogPostPage} />
+            <Route exact path="/blog/:id" element={BlogPostPage} />
           </Routes>
           {init && (
         <Particles

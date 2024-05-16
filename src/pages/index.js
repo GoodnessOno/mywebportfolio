@@ -4,3 +4,4 @@ export { default as Aboutme } from './aboutme/Aboutme';
 export { default as Projects } from './projects/Projects';
 export { default as Blog } from './blog/Blog';
 export { default as Contactme } from './contactme/Contactme';
+export { default as BlogPostPage } from './Blogpostpage1/BlogPostPage';
