@@ -1,0 +1,24 @@
+.blogheader {
+    position: relative;
+    z-index: 2;
+}
+.blogheader img {
+    width: 100%;
+}
+@media only screen and (min-width: 320px) {
+    .blogheader img {
+        width: 100%;
+        width: 355px;
+        
+    }
+}
+@media only screen and (min-width: 375px) {
+    .blogheader img {
+        width: 100%; 
+    }
+}
+@media only screen and (min-width: 425px) {
+    .blogheader img {
+        width: 100%;  
+    }
+}

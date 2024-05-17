@@ -9,3 +9,4 @@ export { default as Resume } from './resume/Resume';
 export { default as Scrolltotopbutton} from './scrolltotopbutton/Scrolltotopbutton';
 export { default as Scrolltobottombutton} from './scrolltobottombutton/Scrolltobottombutton';
 export { default as Sidebar } from './sidebar/Sidebar';
+export { default as Blogheader } from './blogheader/Blogheader';
