@@ -8,10 +8,18 @@ const Homepage = () => {
       <Navbar />
       <Header />
       <Aboutsection />
-      <Skills />
-      <Sidebar />
+      <div className='homepage-side'>
+        <div className='homepage-side-skills'>
+        <Skills />
+        </div>
+        <div className='homepage-side-projects'>
+        <Projectsshowcase />
+        </div>
+        <div className='homepage-side-sidebar'>
+        <Sidebar />
+        </div>
+      </div>
       <Resume />
-      <Projectsshowcase />
       <Contactsection />
       <Scrolltotopbutton />
       <Scrolltobottombutton />

@@ -8,16 +8,20 @@ const MAX_CONTENT_LENGTH = 200;
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <h2>Latest Blog Posts</h2>
+      <h1 className='sidebar-heading'>Latest Blog Posts</h1>
+      <div className='sidebar-content'>
       <ul>
         {blogPosts.map((post) => (
           <li key={post.id}>
-            <h3>{post.title}</h3>
+            <h2>{post.title}</h2>
             <div dangerouslySetInnerHTML={{ __html: truncateContent(post.content) }} />
+            <div className='sidebar-link'>
             <Link to={`/blog/${post.id}`}>CONTINUE READING</Link>
+            </div>
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,15 @@
+.sidebar {
+    right: 0;
+}
+.sidebar-link {
+    color: blue;
+    font-weight: 800;
+}
+.sidebar-link:hover {
+    color: navy;
+    text-decoration: underline;
+}
+.sidebar-heading {
+    background-color: rgb(2, 2, 56);
+    color: aliceblue;
+}

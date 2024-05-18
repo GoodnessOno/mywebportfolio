@@ -1,4 +1,18 @@
 .homepage {
     position: relative;
     z-index: 2; /* Ensure navbar is above particle background */
+    width: 100%;
+    overflow-x: hidden;
   }
+.homepage-side {
+  display: flex;
+}
+.homepage-side-sidebar {
+  width: 400px;
+  margin-left: 1rem;
+  background-color: aliceblue;
+  height: 500px;
+}
+.homepage-side-skills {
+  margin-left: 10px;
+}
