@@ -10,3 +10,4 @@ export { default as Scrolltotopbutton} from './scrolltotopbutton/Scrolltotopbutt
 export { default as Scrolltobottombutton} from './scrolltobottombutton/Scrolltobottombutton';
 export { default as Sidebar } from './sidebar/Sidebar';
 export { default as Blogheader } from './blogheader/Blogheader';
+export { default as Flippablecard } from './flippablecard/Flippablecard';

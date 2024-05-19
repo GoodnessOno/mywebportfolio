@@ -1,0 +1,27 @@
+.projectsshowcase-grid img {
+    width: 450px;
+    height: 250px;
+}
+.projectsshowcase-grid {
+    margin-right: 30px;
+    background-color: rgb(12, 230, 12);
+}
+.projectsshowcase-link {
+    text-decoration: none;
+    color: rgb(240, 239, 245);
+    font-weight: 800;
+    background-color: rgb(10, 1, 58);
+}
+
+.projectsshowcase-link:hover {
+    background-color: rgb(236, 235, 245);
+    color: rgb(10, 1, 58);
+    text-decoration: underline;
+}
+.projectsshowcase-header {
+    background-color: rgb(2, 2, 56);
+    color: aliceblue;
+}
+.projectsshowcase {
+    margin-right: 30px;
+}

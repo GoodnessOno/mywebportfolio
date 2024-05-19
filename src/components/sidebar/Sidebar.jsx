@@ -8,7 +8,7 @@ const MAX_CONTENT_LENGTH = 200;
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <h1 className='sidebar-heading'>Latest Blog Posts</h1>
+      <h1 className='sidebar-heading'>LATEST BLOG POSTS</h1>
       <div className='sidebar-content'>
       <ul>
         {blogPosts.map((post) => (

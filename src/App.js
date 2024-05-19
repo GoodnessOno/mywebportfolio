@@ -97,7 +97,7 @@ function App() {
             <Route exact path="/homepage" element={<Homepage />} />
             <Route exact path="/aboutme" element={<Aboutme />} />
             <Route exact path="/blog" element={<Blog />} />
-            <Route exact path="/projects" element={<Projects />} />
+            <Route excat path="/projects" element={<Projects />} />
             <Route exact path="/contactme" element={<Contactme />} />
             <Route exact path="/" component={<Sidebar />} />
             <Route exact path="/blog/:id" element={<BlogPostPage />} />
