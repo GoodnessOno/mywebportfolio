@@ -14,7 +14,7 @@ const Aboutsection = () => {
           <br />
           Initiate exploration in the "ABOUT ME SECTION" by clicking the shimmering green portal below.
           <br />
-          Unlock a treasure trove of knowledge in the "BLOG SECTION" by clicking the golden key icon below. May your discoveries be fruitful!
+          Unlock a treasure trove of knowledge in the "BLOG SECTION" by clicking on any of the 'CONTINUE READING' links below in the latest blog section. May your discoveries be fruitful!
           <br />
           <br />
           <b><i>Your journey through <b>MY PORTFOLIO</b> awaits.</i></b>

@@ -9,6 +9,9 @@ const Header = () => {
         <h1>ARTIFICIAL INTELLIGENCE</h1>
         <h1>SUSTAINABILITY</h1>
       </div>
+      <div className='header-small-content'>
+        <h1>SOFTWARE DEVELOPMENT</h1>
+      </div>
     </div>
   )
 }

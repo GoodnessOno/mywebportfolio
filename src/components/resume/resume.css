@@ -1,0 +1,46 @@
+.resume {
+    margin-top: 200px;
+    border-color: rgb(1, 1, 61);
+    border-style: dotted;
+}
+.resume-header h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.resume-link {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.resume-link button {
+    width: fit-content;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s infinite both;
+	        animation: scale-up-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s infinite both;
+}
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }

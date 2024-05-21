@@ -13,3 +13,43 @@
     background-color: rgb(2, 2, 56);
     color: aliceblue;
 }
+/* Default styles */
+
+/* Media query for iMac */
+@media only screen and (min-width: 2560px) {
+    /* Styles for iMac */
+    .sidebar-content {
+        font-size: 30px;
+    }
+  }
+  
+  /* Media query for big laptops */
+  @media only screen and (min-width: 1440px) and (max-width: 2559px) {
+    /* Styles for big laptops */
+  }
+  
+  /* Media query for small laptops */
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* Styles for small laptops */
+  }
+  
+  /* Media query for tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets */
+  }
+  
+  /* Media query for large phones */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* Styles for large phones */
+  }
+  
+  /* Media query for medium phones */
+  @media only screen and (min-width: 360px) and (max-width: 479px) {
+    /* Styles for medium phones */
+  }
+  
+  /* Media query for small phones */
+  @media only screen and (max-width: 359px) {
+    /* Styles for small phones */
+  }
+  

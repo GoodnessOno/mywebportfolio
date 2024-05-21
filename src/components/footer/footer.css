@@ -7,3 +7,27 @@
     margin-left: 0;
     margin-right: 35px;
 }
+.footer-content {
+    background-color: rgb(6, 173, 28);
+    margin-top: 50px;
+    height: 230px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 0; /*was 2rem 6rem*/
+    width: 100%;
+}
+.footer-links-contact {
+    margin-right: 140px;
+    font-size: 18px;
+}
+.footer-links-header {
+    margin-left: 650px;
+}
+.footer-links-contact li:hover {
+    color: rgb(5, 5, 206);
+    text-decoration: underline;
+}

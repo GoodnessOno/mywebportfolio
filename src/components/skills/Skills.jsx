@@ -126,7 +126,7 @@ const Skills = () => {
       <div className='skills-header'>
         <h1>SKILLS</h1>
         <h3>Click on the tab to learn more</h3>
-    </div>
+      </div>
       <div className="skills-flip">
         <Flippablecard frontContent={frontContent} backContent={backContent} />
       </div>

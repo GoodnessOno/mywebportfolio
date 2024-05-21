@@ -1,13 +1,17 @@
 import React from 'react'
 import './homepage.css'
-import { Header, Navbar, Contactsection, Aboutsection, Skills, Sidebar, Projectsshowcase, Resume, Footer, Scrolltotopbutton, Scrolltobottombutton } from '../../components'
+import { Header, Navbar, Aboutsection, Skills, Sidebar, Projectsshowcase, Resume, Footer, Scrolltotopbutton, Scrolltobottombutton } from '../../components'
 
 const Homepage = () => {
   return (
     <div className='homepage'>
       <Navbar />
+      <div className='homepage-header'>
       <Header />
+      </div>
+      <div className='homepage-about'>
       <Aboutsection />
+      </div>
       <div className='homepage-side'>
         <div className='homepage-side-skills'>
         <Skills />
@@ -19,12 +23,14 @@ const Homepage = () => {
         <Sidebar />
         </div>
       </div>
-      <Resume />
-      <Contactsection />
+      <div className='homepage-resume'>
+        <Resume />
+      </div>
       <Scrolltotopbutton />
       <Scrolltobottombutton />
+      <div className='homepage-footer'>
       <Footer />
-      do some animations to make homepage interactive. MAKE IT INTERACTIVE. Arrows to go back to the top, brief interlude of animations.
+      </div>
     </div>
   )
 }
