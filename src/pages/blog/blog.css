@@ -1,0 +1,5 @@
+.blog {
+    position: relative;
+    z-index: 2; /* Ensure navbar is above particle background */
+    width: 100%;
+}

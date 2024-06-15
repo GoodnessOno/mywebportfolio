@@ -11,7 +11,7 @@ const Resume = () => {
       </div>
       <div className='resume-link'>
         <button className='scale-up-center'>
-        <a href="https://tinyurl.com/goodnessononogbu-frontend" target='_blank' rel='noopener noreferrer'>CLICK HERE TO VIEW AND DOWNLOAD MY RESUME</a>
+        <a href="https://tinyurl.com/goodness-ononogbu-frontenddev" target='_blank' rel='noopener noreferrer'>CLICK HERE TO VIEW AND DOWNLOAD MY RESUME</a>
         </button>
       </div>
     </div>

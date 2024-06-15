@@ -1,5 +1,5 @@
 .projectsshowcase-grid img {
-    width: 450px;
+    width: 530px;
     height: 250px;
 }
 .projectsshowcase-grid {
@@ -37,7 +37,7 @@
         width: 800px;
     }
     .projectsshowcase-grid img {
-        width: 800px;
+        width: 900px;
         height: 400px;
     }
     .projectsshowcase-grid p, h3 {

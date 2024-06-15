@@ -1,10 +1,11 @@
 import React from 'react'
 import './blog.css'
+import Wordpress from '../../components/wordpress/Wordpress'
 
 const Blog = () => {
   return (
-    <div>
-      
+    <div className='blog'>
+      <Wordpress />
     </div>
   )
 }
