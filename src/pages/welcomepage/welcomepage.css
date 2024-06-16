@@ -1,6 +1,7 @@
 .welcomepage {
     position: relative;
     z-index: 2; /* Ensure navbar is above particle background */
+    overflow-x: hidden;
   }
 .logo {
     display: flex;
