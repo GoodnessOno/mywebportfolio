@@ -96,6 +96,31 @@
   /* Media query for tablets */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* Styles for tablets */
+    .skill {
+        width: 250px;
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .skill-tab {
+        font-size: 20px;
+        width: 250px;
+        margin-left: 2px;
+    }
+    .skills-flip {
+        width: 300px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    .skills-header {
+        width: 200px;
+        margin-left: 33px;
+    }
+    .skills-header h3 {
+        font-size: 20px;
+    }
+    .skills-header h1 {
+        font-size: 20px;
+    }
   }
   
   /* Media query for large phones */
@@ -109,8 +134,34 @@
   }
   
   /* Media query for small phones */
-  @media only screen and (max-width: 359px) {
+  @media only screen and (max-width: 320px) {
     /* Styles for small phones */
+    .skill {
+        width: 200px;
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .skill-tab {
+        font-size: 20px;
+        width: 120px;
+        margin-left: 0;
+    }
+    .skills-flip {
+        width: 200px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        margin-right: 90px;
+    }
+    .skills-header {
+        width: 180px;
+        margin-left: 20px;
+    }
+    .skills-header h3 {
+        font-size: 20px;
+    }
+    .skills-header h1 {
+        font-size: 20px;
+    }
   }
   
 

@@ -77,6 +77,8 @@
     }
     .navbar-menu {
         display: flex;
+        position: relative; /* Ensure it participates in stacking context */
+        z-index: 3; /* Higher z-index to be in front of the header slide */
     }
 }
 @media screen and (max-width: 700px) {

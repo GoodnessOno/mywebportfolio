@@ -5,6 +5,7 @@
 .projectsshowcase-grid {
     margin-right: 30px;
     background-color: rgb(12, 230, 12);
+    width: 530px;
 }
 .projectsshowcase-link {
     text-decoration: none;
@@ -34,7 +35,7 @@
         width: 800px;
     }
     .projectsshowcase-grid {
-        width: 800px;
+        width: 900px;
     }
     .projectsshowcase-grid img {
         width: 900px;
@@ -48,33 +49,82 @@
     }
   }
   
-  /* Media query for big laptops */
-  @media only screen and (min-width: 1440px) and (max-width: 2559px) {
-    /* Styles for big laptops */
-  }
-  
   /* Media query for small laptops */
   @media only screen and (min-width: 1024px) and (max-width: 1439px) {
     /* Styles for small laptops */
+    .projectsshowcase-grid img {
+    width: 430px;
+    height: 250px;
+}
+.projectsshowcase-grid {
+    margin-right: 30px;
+    background-color: rgb(12, 230, 12);
+    width: 430px;
+}
   }
   
   /* Media query for tablets */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* Styles for tablets */
+    .projectsshowcase-grid img {
+        width: 300px;
+        height: 200px;
+    }
+    .projectsshowcase-grid {
+        margin-right: 30px;
+        background-color: rgb(12, 230, 12);
+        width: 300px;
+    }
   }
   
   /* Media query for large phones */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
     /* Styles for large phones */
+    .projectsshowcase-grid img {
+        width: 300px;
+        height: 150px;
+        margin-right: 50px;
+    }
+    .projectsshowcase-grid {
+        margin-right: 90px;
+        background-color: rgb(12, 230, 12);
+        width: 300px;
+        margin-top: 200px;
+        margin-left: 0;
+    }
   }
   
   /* Media query for medium phones */
-  @media only screen and (min-width: 360px) and (max-width: 479px) {
+  @media only screen and (max-width: 375px) {
     /* Styles for medium phones */
+    .projectsshowcase-grid img {
+        width: 280px;
+        height: 150px;
+        margin-right: 50px;
+    }
+    .projectsshowcase-grid {
+        margin-right: 90px;
+        background-color: rgb(12, 230, 12);
+        width: 280px;
+        margin-top: 200px;
+        margin-left: 0;
+    }
   }
   
   /* Media query for small phones */
-  @media only screen and (max-width: 359px) {
+  @media only screen and (max-width: 320px) {
     /* Styles for small phones */
+    .projectsshowcase-grid img {
+        width: 200px;
+        height: 150px;
+        margin-right: 50px;
+    }
+    .projectsshowcase-grid {
+        margin-right: 90px;
+        background-color: rgb(12, 230, 12);
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 0;
+    }
   }
   

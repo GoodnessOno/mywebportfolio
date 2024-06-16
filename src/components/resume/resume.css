@@ -17,7 +17,6 @@
 .resume-link button {
     width: fit-content;
     height: 50px;
-    font-size: 20px;
     font-weight: 700;
 }
 .scale-up-center {
@@ -44,3 +43,18 @@
               transform: scale(1);
     }
   }
+
+@media screen and (min-width: 2560px) {
+  .resume-link button {
+    height: 70px;
+    width: 500px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .resume {
+    margin-top: 100px;
+    border-color: rgb(1, 1, 61);
+    border-style: dotted;
+  }
+}
