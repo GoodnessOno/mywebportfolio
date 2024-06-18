@@ -10,3 +10,7 @@ export { default as Scrolltotopbutton} from './scrolltotopbutton/Scrolltotopbutt
 export { default as Scrolltobottombutton} from './scrolltobottombutton/Scrolltobottombutton';
 export { default as Blogheader } from './blogheader/Blogheader';
 export { default as Flippablecard } from './flippablecard/Flippablecard';
+export { default as Technologyproject } from './technologyproject/Technologyproject';
+export { default as Sustainabilityproject } from './sustainabilityproject/Sustainabilityproject';
+export { default as Aiproject } from './aiproject/Aiproject';
+export { default as Contactform } from './contactform/Contactform';
