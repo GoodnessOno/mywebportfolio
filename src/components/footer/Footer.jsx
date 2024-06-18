@@ -23,7 +23,7 @@ const Footer = () => {
                   <a href="mailto:ononogbugoodness@gmail.com" target='_blank' rel='noopener noreferrer'><BiLogoGmail />EMAIL</a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/goodness-ononogbu-aicmc/" target='_blank' rel='noopener noreferrer'><IoLogoLinkedin />LINKED</a>
+                  <a href="https://www.linkedin.com/in/goodness-ononogbu-aicmc/" target='_blank' rel='noopener noreferrer'><IoLogoLinkedin />LINKEDIN</a>
                 </li>
                 <li>
                   <a href="https://github.com/GoodnessOno" target='_blank' rel='noopener noreferrer'><IoLogoGithub />GITHUB</a>
