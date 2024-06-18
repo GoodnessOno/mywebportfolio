@@ -32,7 +32,8 @@
     "slick": "^1.12.2",
     "slick-carousel": "^1.8.1",
     "slider": "^1.0.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "ws": "^8.17.1"
   },
   "scripts": {
     "predeploy": "npm run build",
