@@ -17,6 +17,9 @@
     height: 400px;
     width: 600px;
 }
+.software-item p {
+  font-size: 20px;
+}
 .slide-fwd-center {
 	-webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -53,4 +56,64 @@
               transform: translateZ(160px);
     }
   }
-  
+  @media screen and (min-width: 2560px) {
+    .software-item img {
+      height: 600px;
+      width: 800px;
+  }
+  .software-item p {
+    font-size: 40px;
+  }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px){
+    .software-item img {
+      height: 400px;
+      width: 430px;
+  }
+  }
+ 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .software-item img {
+    height: 400px;
+    width: 330px;
+}
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .software-item img {
+      height: 380px;
+      width: 340px;
+      border-radius: 20px;
+      border-color: navy;
+  }
+  .software-item p {
+      font-size: 18px;
+  }
+}
+@media screen and (min-width: 326px) and (max-width: 375px) {
+  .software-item img {
+      height: 380px;
+      width: 300px;
+      border-radius: 20px;
+      border-color: navy;
+  }
+  .software-item p {
+      font-size: 18px;
+  }
+  .software-item h1 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .software-item img {
+      height: 380px;
+      width: 250px;
+      border-radius: 20px;
+      border-color: navy;
+  }
+  .software-item p {
+      font-size: 18px;
+  }
+  .software-item h1 {
+    font-size: 23px;
+  }
+}

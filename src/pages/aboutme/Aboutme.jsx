@@ -2,6 +2,8 @@ import React from 'react'
 import './aboutme.css'
 import { Navbar, Header, Footer, Aiproject, Sustainabilityproject, Technologyproject, Contactform } from '../../components'
 import myimg from '../../assets/TMF PERSONAL POTRAIT.jpg'
+import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Aboutme = () => {
   return (
@@ -52,6 +54,26 @@ const Aboutme = () => {
       <Aiproject />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <div className='aboutme-work'>
+        <h4>
+          I am open to software development, artificial intelligence and un sdg projects.
+          Kindly reach out if you are interested in working with me on any project of these sorts or colloborating with me on any of my projects
+        </h4>
+        <ul className='social-links'>
+          <li>
+            <a href="mailto:ononogbugoodness@gmail.com" target='_blank' rel='noopener noreferrer'><BiLogoGmail />EMAIL</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/goodness-ononogbu-aicmc/" target='_blank' rel='noopener noreferrer'><IoLogoLinkedin />LINKED</a>
+          </li>
+          <li>
+            <a href="https://github.com/GoodnessOno" target='_blank' rel='noopener noreferrer'><IoLogoGithub />GITHUB</a>
+          </li>
+        </ul>
+      </div>
       <br />
       <br />
       <br />

@@ -144,9 +144,10 @@
 /* Media query for iMac */
 @media only screen and (min-width: 2560px) {
     /* Styles for iMac */
-    .header-small-content {
-        display: none;
-    }
+    .header-content img{
+      width: 100%;
+      height: 600px;
+  }
   }
   
   /* Media query for big laptops */
