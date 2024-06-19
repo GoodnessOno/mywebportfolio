@@ -13,10 +13,8 @@ const Goalsally = () => {
         <img src={logo} alt="goalsally" />
       </div>
       <div className='goalsally-item'>
-        <b><i>
         <h2>GoalsAlly</h2>
         <h3>Join Forces, Succeed</h3>
-        </i></b>
         <p>
             IntelliUX is a cutting-edge solution designed to transform the way users interact with your website.
             <br />
@@ -35,8 +33,8 @@ const Goalsally = () => {
             Or, if you desire to know more about this software, kindly click on this link to view our live google slides.
             <br />
             <br />
-            <li><a href="https://tinyurl.com/IntelliUX" target="_blank" rel="noopener noreferrer">IntelliUX Software</a></li>
-            <li><a href="https://github.com/GoodnessOno/ux-improvement-tool" target="_blank" rel="noopener noreferrer"><IoLogoGithub />IntelliUX Github Repositiry</a></li>
+            <li><a href="https://tinyurl.com/goalsally-slides" target="_blank" rel="noopener noreferrer">GoalsAlly Software</a></li>
+            <li><a href="https://github.com/GOALSALLY/GoalsAlly" target="_blank" rel="noopener noreferrer"><IoLogoGithub />GoalsAlly Github Repository</a></li>
         </p>
         <h3>Technologies used - Javascript, ReactJS, Python, HTML, CSS, ExpressJS</h3>
       </div>
