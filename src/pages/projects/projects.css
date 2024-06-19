@@ -1,4 +1,5 @@
-.projects-details-page {
+.projects-page {
     z-index: 2;
     position: relative;
+    overflow-x: hidden;
 }
