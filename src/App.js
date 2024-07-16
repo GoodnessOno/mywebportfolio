@@ -1,4 +1,4 @@
-import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, BlogPostPage } from './pages';
+import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue } from './pages';
 import './App.css';
 import React, { useState, useEffect, useMemo } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -98,7 +98,7 @@ function App() {
             <Route exact path="/blog" element={<Blog />} />
             <Route excat path="/projects" element={<Projects />} />
             <Route exact path="/contactme" element={<Contactme />} />
-            <Route exact path="/wordpress/:id" element={<BlogPostPage />} />
+            <Route exact path='/is-javascript-fatigue-real' element={<Jsfatigue />} />
           </Routes>
           {init && (
         <Particles
