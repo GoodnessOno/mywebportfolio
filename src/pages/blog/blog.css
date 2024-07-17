@@ -2,5 +2,15 @@
     position: relative;
     z-index: 2; /* Ensure navbar is above particle background */
     width: 100%;
-    overflow-x: hidden;
+    padding: 20px;
+}
+.blog-row {
+    margin-bottom: 20rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.blog-col {
+    border-width: 10px;
+    box-sizing: border-box;
 }

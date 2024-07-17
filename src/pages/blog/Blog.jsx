@@ -1,33 +1,29 @@
 import React from 'react';
 import Post1 from '../../components/post1';
-import { Container, Row, Col, Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import Post2 from '../../components/post2';
+import { Container, Row, Col } from 'react-bootstrap';
 import './blog.css';
-
-const Blog = () => {
+import { Navbar, Footer } from '../../components';
+const Posts = () => {
   return (
-    <Container className='blog'>
-      <Row className="justify-content-between mt-5">
-        <Col lg={8} className="mb-5">
-          <Post1 />
-        </Col>
-        <Col lg={4} className='mb-5'>
-          <Card>
-            <Card.Body>
-              <Card.Title>Recent Posts</Card.Title>
-              <ul className='list-unstyled'>
-                <li>
-                  <Link to="/is-javascript-fatigue-real">IS JAVASCRIPT FATIGUE REAL?</Link>
-                </li>
-                {/* Add more links as needed */}
-              </ul>
-            </Card.Body>
-          </Card>
-        </Col>
+      <Container className='blog'>
+        <Navbar />
+      <Row className="blog-row">
+          <Col xs={8} md={8} className="blog-col">
+            <Post1 />
+          </Col>
+          <Col xs={12} md={8} className="blog-col">
+            <Post2 />
+          </Col>
       </Row>
-    </Container>
+      <Row className="blog-row">
+          <Col xs={12} md={8} className="blog-col">
+            <Post1 />
+          </Col>
+      </Row>
+      <Footer />
+      </Container>
   );
-}
+};
 
-export default Blog;
-
+export default Posts;
