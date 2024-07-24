@@ -1,62 +1,91 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import './contactform.css';  // Import the CSS file
+// src/ContactForm.js
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+import ReCAPTCHA from 'react-google-recaptcha';
+import './contactform.css';
 
 const Contactform = () => {
-  const form = useRef();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [stateMessage, setStateMessage] = useState(null);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [recaptchaToken, setRecaptchaToken] = useState('');
 
-  const sendEmail = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaToken(value);
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
 
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
-        process.env.REACT_APP_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          console.log('SUCCESS!', result.text);
-          setStateMessage('Message sent!');
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000);
-        },
-        (error) => {
-          console.error('FAILED...', error);
-          setStateMessage('Something went wrong, please try again later');
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000);
-        }
-      );
+    if (!recaptchaToken) {
+      alert('Please complete the reCAPTCHA');
+      return;
+    }
 
-    e.target.reset();
+    const form = e.target;
+    const formDataWithRecaptcha = new FormData(form);
+    formDataWithRecaptcha.append('g-recaptcha-response', recaptchaToken);
+
+    emailjs.sendForm('service_ver282d', 'template_93fgzvx', formDataWithRecaptcha, '0lNFifeXdul6jFuc7')
+      .then((result) => {
+        console.log('Email successfully sent:', result.text);
+        alert('Message sent successfully!');
+      }, (error) => {
+        console.error('Failed to send email:', error.text);
+        alert('Failed to send message.');
+      });
+
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+    setRecaptchaToken('');
   };
 
   return (
-    <div className='form'>
-    <form ref={form} onSubmit={sendEmail}>
-      <h1>CONTACT FORM</h1>
-      <label className="field">Name</label>
-      <input type="text" name="user_name" className="input" />
-      <label className="field">Email</label>
-      <input type="email" name="user_email" className="input" />
-      <label className="field">Message</label>
-      <textarea name="message" className="textarea" />
-      <button type="submit" disabled={isSubmitting} className="submit">SEND MESSAGE</button>
-      {stateMessage && <p className="message">{stateMessage}</p>}
+    <form className="contact-form" onSubmit={handleSubmit}>
+      <h2>Contact Us</h2>
+      <label>Name:</label>
+      <input
+        type="text"
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+        required
+      />
+      <label>Email:</label>
+      <input
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleChange}
+        required
+      />
+      <label>Message:</label>
+      <textarea
+        name="message"
+        value={formData.message}
+        onChange={handleChange}
+        required
+      />
+      <ReCAPTCHA
+        sitekey="YOUR_RECAPTCHA_SITE_KEY"
+        onChange={handleRecaptchaChange}
+      />
+      <button type="submit">Send</button>
     </form>
-    </div>
   );
 };
 
 export default Contactform;
-
-
