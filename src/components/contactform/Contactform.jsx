@@ -80,7 +80,7 @@ const Contactform = () => {
         required
       />
       <ReCAPTCHA
-        sitekey="YOUR_RECAPTCHA_SITE_KEY"
+        sitekey="6Le0dPspAAAAAC6XQiPjBHtN-palkrOX6s4Wl1Pk"
         onChange={handleRecaptchaChange}
       />
       <button type="submit">Send</button>
