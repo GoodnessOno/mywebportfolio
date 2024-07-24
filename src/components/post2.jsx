@@ -1,30 +1,40 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import optimizedreactimage  from '../assets/optimizedreactperformance.png'
+import aireactimage  from '../assets/AI IN REACT PROJECTS.png'
 
-const post1 = () => {
+const post2 = () => {
   return (
-    <Card>
+    <Card style={{ backgroundColor: '#f8f9fa', marginBottom: '40px' }}>
         <Card.Body>
         <Card.Img
                 variant="top"
                 src=
-                {optimizedreactimage}
-                width={250}
-                height={250}
-                margin-bottom={30}
+                {aireactimage}
+                width={300}
+                height={200}
             />
-            <Card.Title>Optimizing Performance in React Applications</Card.Title>
-            <Card.Text margin-bottom={30}>
-            Performance optimization in React applications is critical for delivering a fast and seamless user experience. 
-            Optimized performance not only enhances user satisfaction but also improves SEO rankings and reduces resource consumption, leading to lower operational costs. 
-            In this article, we will explore various techniques to identify and resolve performance bottlenecks in React applications, ensuring that your app runs smoothly and efficiently.
+            <Card.Title style={{ fontWeight: 'bold', fontSize: '1.5rem', color: '#333' }}>
+              Integrating AI into React Projects for Enhanced User Experience</Card.Title>
+            <Card.Text>
+            Integrating Artificial Intelligence-AI, into React projects can significantly enhance user experience by making web applications smarter and more responsive. 
+            This article explores various AI tools and techniques that React developers can use to improve the functionality and interactivity of their web projects.
             </Card.Text>
-            <Link className="btn btn-primary" to="/is-javascript-fatigue-real">Click to read full article</Link>
+            <Link 
+            className="btn btn-light" 
+            to="/integrating-ai-into-react-projects"
+            style={{
+              backgroundColor: '#007bff',
+              color: '#fff',
+              padding: '10px 20px',
+              textDecoration: 'none',
+              borderRadius: '5px',
+              marginTop: '10px',
+              display: 'inline-block'
+            }}>Click to read full article</Link>
         </Card.Body>
     </Card>
   )
 }
 
-export default post1
+export default post2

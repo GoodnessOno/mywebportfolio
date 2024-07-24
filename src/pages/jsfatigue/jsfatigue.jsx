@@ -2,14 +2,23 @@ import React from 'react'
 import  jsfatiguepic from '../../assets/JSFATIGUEIMAGE.png'
 import './jsfatigue.css'
 import { Navbar, Footer } from '../../components'
+import { Helmet } from 'react-helmet'
 
-const jsfatigue = () => {
+const jsfatigue = ({ description }) => {
   return (
     <div class="jsfatigue container-fluid">
       <Navbar />
+      <Helmet>
+        <title>JSFatigue: Is JavaScript Fatigue Real, and Is It Hindering Innovation in Frontend Development?</title>
+        <meta
+          name='description'
+          content='JSFatigue: Is JavaScript Fatigue Real, and Is It Hindering Innovation in Frontend Development?'
+        />
+      </Helmet>
       <div className='jsfatigue-content'>
-        <div className='jsfatigue-header'><h1>
-        Is JavaScript Fatigue Real, and Is It Hindering Innovation in Frontend Development?</h1></div>
+      <div className='jsfatigue-title'>
+        <h1>Is JavaScript Fatigue Real, and Is It Hindering Innovation in Frontend Development?</h1>
+      </div>
         <div className='jsfatigue-image'>
           <img src={jsfatiguepic} alt="jsfatiguebanner" />
         </div>

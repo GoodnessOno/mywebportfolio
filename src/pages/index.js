@@ -6,3 +6,4 @@ export { default as Blog } from './blog/Blog';
 export { default as Contactme } from './contactme/Contactme';
 export { default as BlogPostPage } from './Blogpostpage1/BlogPostPage';
 export { default as Jsfatigue } from './jsfatigue/jsfatigue';
+export { default as Aireactprojects } from './aireactprojects/Aireactprojects';
