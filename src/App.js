@@ -1,4 +1,6 @@
-import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue, Aireactprojects } from './pages';
+import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue, Aireactprojects,
+  Aipersonalisedmarketing
+ } from './pages';
 import './App.css';
 import React, { useState, useEffect, useMemo } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -100,6 +102,8 @@ function App() {
             <Route exact path="/contactme" element={<Contactme />} />
             <Route exact path='/is-javascript-fatigue-real' element={<Jsfatigue />} />
             <Route exact path='/integrating-ai-into-react-projects' element={<Aireactprojects />} />
+            <Route exact path='/leveraging-ai-for-personalised-marketing' element={<Aipersonalisedmarketing />} />
+            {/* Add more routes as needed */}
           </Routes>
           {init && (
         <Particles
