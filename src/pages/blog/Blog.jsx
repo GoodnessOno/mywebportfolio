@@ -21,63 +21,6 @@ const Posts = () => {
         <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
             <Post3 />
           </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-          <Post1 />
-        </Col>
-        <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-        </Row>
-        <Row className='blog-row'>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-          <Post1 />
-        </Col>
-        <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-          <Post1 />
-        </Col>
-        <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-        </Row>
-        <Row className='blog-row'>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-          <Post1 />
-        </Col>
-        <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-          <Post1 />
-        </Col>
-        <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-        </Row>
-        <Row className='blog-row'>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post2 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-          <Post1 />
-        </Col>
-        <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
-            <Post1 />
-          </Col>
         </Row>
       </Container>
       <Footer />
