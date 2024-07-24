@@ -23,3 +23,69 @@
     margin: 0 auto;
     margin-bottom: 10px;
 }
+@media screen and (min-width: 2560px) {
+    .aireact-image img {
+        width: 100%;
+        height: 800px;
+    }   
+    .aireact-content h1 {
+        font-size: 70px;
+    }
+    .aireact-content h2 {
+        font-size: 55px;
+    }
+    .aireact-content h3 {
+        font-size: 45px;
+    }
+    .aireact-content p {
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .aireact-image img {
+        width: 100%;
+        height: 600px;
+    }   
+    .aireact-content h1 {
+        font-size: 45px;
+    }
+    .aireact-content h2 {
+        font-size: 35px;
+    }
+    .aireact-content h3 {
+        font-size: 25px;
+    }
+    .aireact-content p {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .aireact-image img {
+        width: 100%;
+        height: 400px;
+    } 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .aireact-image img {
+        width: 100%;
+        height: 350px;
+    } 
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .aireact-image img {
+        width: 100%;
+        height: 250px;
+    } 
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .aireact-image img {
+        width: 100%;
+        height: 200px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    .aireact-image img {
+        width: 100%;
+        height: 200px;
+    } 
+}
