@@ -14,5 +14,5 @@ export { default as Technologyproject } from './technologyproject/Technologyproj
 export { default as Sustainabilityproject } from './sustainabilityproject/Sustainabilityproject';
 export { default as Aiproject } from './aiproject/Aiproject';
 export { default as Contactform } from './contactform/Contactform';
-export { default as Intelliux } from './intelliux/Intelliux';
+export { default as Nessdroidweather } from './nessdroidweather/Nessdroidweather';
 export { default as Goalsally } from './goalsally/Goalsally';

@@ -8,3 +8,4 @@ export { default as BlogPostPage } from './Blogpostpage1/BlogPostPage';
 export { default as Jsfatigue } from './jsfatigue/jsfatigue';
 export { default as Aireactprojects } from './aireactprojects/Aireactprojects';
 export { default as Aipersonalisedmarketing } from './aipersonalisedmarketing/Aipersonalisedmarketing'
+export { default as Futurefrontend } from './futurefrontend/Futurefrontend'

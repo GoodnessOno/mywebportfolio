@@ -1,6 +1,6 @@
 import React from 'react'
 import './projects.css'
-import { Intelliux, Navbar, Header, Footer, Goalsally } from '../../components'
+import { Nessdroidweather, Navbar, Header, Footer, Goalsally } from '../../components'
 
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="projects-page">
             <Navbar />
             <Header />
-            <Intelliux />
+            <Nessdroidweather />
             <Goalsally />
             <Footer />
         </div>

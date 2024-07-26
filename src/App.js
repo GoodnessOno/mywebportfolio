@@ -1,5 +1,5 @@
 import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue, Aireactprojects,
-  Aipersonalisedmarketing
+  Aipersonalisedmarketing, Futurefrontend
  } from './pages';
 import './App.css';
 import React, { useState, useEffect, useMemo } from 'react';
@@ -103,6 +103,7 @@ function App() {
             <Route exact path='/is-javascript-fatigue-real' element={<Jsfatigue />} />
             <Route exact path='/integrating-ai-into-react-projects' element={<Aireactprojects />} />
             <Route exact path='/leveraging-ai-for-personalised-marketing' element={<Aipersonalisedmarketing />} />
+            <Route exact path='/future-of-frontend-development' element={<Futurefrontend />} />
             {/* Add more routes as needed */}
           </Routes>
           {init && (
