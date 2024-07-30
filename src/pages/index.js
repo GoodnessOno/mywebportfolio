@@ -9,3 +9,5 @@ export { default as Jsfatigue } from './jsfatigue/jsfatigue';
 export { default as Aireactprojects } from './aireactprojects/Aireactprojects';
 export { default as Aipersonalisedmarketing } from './aipersonalisedmarketing/Aipersonalisedmarketing'
 export { default as Futurefrontend } from './futurefrontend/Futurefrontend'
+export { default as Growthhacking } from './growthhacking/Growthhacking'
+export { default as Growthhackingfrontend } from './growthhackingfrontend/Growthhackingfrontend'

@@ -3,6 +3,7 @@ import Post1 from '../../components/post1';
 import Post2 from '../../components/post2';
 import Post3 from '../../components/post3';
 import Post4 from '../../components/post4';
+import Post5 from '../../components/post5';
 import { Container, Row, Col } from 'react-bootstrap';
 import './blog.css';
 import { Navbar, Footer } from '../../components';
@@ -26,6 +27,9 @@ const Posts = () => {
         <Row className='blog-row'>
           <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
             <Post4 />
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} className="blog-col">
+            <Post5 />
           </Col>
         </Row>
       </Container>
