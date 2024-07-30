@@ -100,10 +100,10 @@ function App() {
             <Route exact path="/blog" element={<Blog />} />
             <Route excat path="/projects" element={<Projects />} />
             <Route exact path="/contactme" element={<Contactme />} />
-            <Route exact path='/is-javascript-fatigue-real' element={<Jsfatigue />} />
-            <Route exact path='/integrating-ai-into-react-projects' element={<Aireactprojects />} />
-            <Route exact path='/leveraging-ai-for-personalised-marketing' element={<Aipersonalisedmarketing />} />
-            <Route exact path='/future-of-frontend-development' element={<Futurefrontend />} />
+            <Route exact path='/blog/is-javascript-fatigue-real' element={<Jsfatigue />} />
+            <Route exact path='/blog/integrating-ai-into-react-projects' element={<Aireactprojects />} />
+            <Route exact path='/blog/leveraging-ai-for-personalised-marketing' element={<Aipersonalisedmarketing />} />
+            <Route exact path='/blog/future-of-frontend-development' element={<Futurefrontend />} />
             {/* Add more routes as needed */}
           </Routes>
           {init && (

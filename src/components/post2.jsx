@@ -22,7 +22,7 @@ const post2 = () => {
             </Card.Text>
             <Link 
             className="btn btn-light" 
-            to="/integrating-ai-into-react-projects"
+            to="/blog/integrating-ai-into-react-projects"
             style={{
               backgroundColor: '#007bff',
               color: '#fff',

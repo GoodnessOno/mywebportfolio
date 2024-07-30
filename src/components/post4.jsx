@@ -22,7 +22,7 @@ const post4 = () => {
             </Card.Text>
             <Link 
             className="btn btn-light" 
-            to='/future-of-frontend-development'
+            to='/blog/future-of-frontend-development'
             style={{
               backgroundColor: '#007bff',
               color: '#fff',

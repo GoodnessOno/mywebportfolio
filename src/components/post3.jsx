@@ -22,7 +22,7 @@ const post3 = () => {
             </Card.Text>
             <Link 
             className="btn btn-light" 
-            to="/leveraging-ai-for-personalised-marketing"
+            to="/blog/leveraging-ai-for-personalised-marketing"
             style={{
               backgroundColor: '#007bff',
               color: '#fff',

@@ -22,7 +22,7 @@ const post1 = () => {
             </Card.Text>
             <Link 
             className="btn btn-light" 
-            to="/is-javascript-fatigue-real"
+            to="/blog/is-javascript-fatigue-real"
             style={{
               backgroundColor: '#007bff',
               color: '#fff',
