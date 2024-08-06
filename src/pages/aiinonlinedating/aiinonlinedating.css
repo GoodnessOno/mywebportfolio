@@ -12,6 +12,10 @@
     width: 90%;
     font-size: large;
 }
+.aiinonlinedating-content a {
+    text-decoration: underline;
+    color: blue;
+}
 .aiinonlinedating-content {
     width: 80%;
     margin: 0 auto;

@@ -1,10 +1,12 @@
 import React from 'react'
 import onlinedatingpic from '../../assets/customer image.jpg'
 import './aiinonlinedating.css'
+import {Navbar, Footer} from '../../components'
 
 const Aiinonlinedating = () => {
 return (
     <div className='aiinonlinedating'>
+        <Navbar />
         <div className='aiinonlinedating-content'>
         <h1 className='aiinonlinedating-header'>
         GROWTH STRATEGIES - AI-POWERED CUSTOMIZATION FOR ONLINE DATING SERVICE PROVIDERS
@@ -25,10 +27,11 @@ return (
             What are your thoughts on this, do you know any company currently implementing this strategy or would you be implementing this strategy? I would love to know how it turns out for you. 
             <br />
             <br />
-            Book a 1:1 30-minute call with me if you desire to scale your startup with the smallest cost possible. - https://lnkd.in/dEFA27Qy 
-            IMAGE FROM - https://lnkd.in/dHp5GsMj
+            Book a 1:1 30-minute call with me if you desire to scale your startup with the smallest cost possible. - <a href="https://calendly.com/ononogbugoodness/30min">BOOK A FREE </a>
+            IMAGE FROM - <a href="https://pixabay.com/users/geralt-9301/">PIXABAY</a>
             </p>
         </div>
+        <Footer />
     </div>
   )
 }
