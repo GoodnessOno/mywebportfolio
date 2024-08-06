@@ -6,12 +6,60 @@
     margin: 0;
     padding: 0;
 }
-.growthhacking-video {
-    height: 600px;
+.growthhacking-video video {
+    height: 400px;
     width: 100%;
     margin: 0;
     padding: 0;
 }
+.growthhacking-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.growthhacking-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 20rem;
+}
+.growthhacking-col {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.growthhacking-col2 {
+    max-width: 50%;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.growthhacking-col1:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,194,245,1) 50%, rgba(0,255,68,1) 100%);
+    color: azure;
+}
+.growthhacking-col1 {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0);
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 @media screen and (max-width: 1024px){
     .growthhacking-video {
         height: 500px;
@@ -23,7 +71,7 @@
     }
 }
 @media screen and (max-width: 425px){
-    .growthhacking-video {
+    .growthhacking-video  {
         height: 180px;
     }
 }

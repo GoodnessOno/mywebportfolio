@@ -1,0 +1,11 @@
+.growthstrategies-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.growthstrategies-col {
+    border-width: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20rem;
+}

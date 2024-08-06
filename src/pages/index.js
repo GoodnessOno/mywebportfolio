@@ -11,3 +11,4 @@ export { default as Aipersonalisedmarketing } from './aipersonalisedmarketing/Ai
 export { default as Futurefrontend } from './futurefrontend/Futurefrontend'
 export { default as Growthhacking } from './growthhacking/Growthhacking'
 export { default as Growthhackingfrontend } from './growthhackingfrontend/Growthhackingfrontend'
+export { default as Aiinonlinedating } from './aiinonlinedating/Aiinonlinedating'

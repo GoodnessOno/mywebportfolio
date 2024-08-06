@@ -1,11 +1,11 @@
 import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue, Aireactprojects,
-  Aipersonalisedmarketing, Futurefrontend, Growthhacking, Growthhackingfrontend
+  Aipersonalisedmarketing, Futurefrontend, Growthhacking, Growthhackingfrontend, Aiinonlinedating
  } from './pages';
 import './App.css';
 import React, { useState, useEffect, useMemo } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
-import { loadSlim } from '@tsparticles/slim';
+import { loadSlim } from '@tsparticles/slim'
 
 function App() {
   const [init, setInit] = useState(false);
@@ -106,6 +106,7 @@ function App() {
             <Route exact path='/blog/leveraging-ai-for-personalised-marketing' element={<Aipersonalisedmarketing />} />
             <Route exact path='/blog/future-of-frontend-development' element={<Futurefrontend />} />
             <Route exact path='/blog/integrating-growth-hacking-for-frontend-development' element={<Growthhackingfrontend />} />
+            <Route exact path='/growthhacking/ai-in-online-dating-services' element={<Aiinonlinedating />} />
             {/* Add more routes as needed */}
           </Routes>
           {init && (
