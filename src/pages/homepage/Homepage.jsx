@@ -1,6 +1,7 @@
 import React from 'react'
 import './homepage.css'
-import { Header, Navbar, Aboutsection, Skills, Projectsshowcase, Resume, Footer, Scrolltotopbutton, Scrolltobottombutton } from '../../components'
+//import { Canvas } from "@react-three/fiber"
+import { Header, Navbar, Aboutsection, Skills, Projectsshowcase, Resume, Footer, Scrolltotopbutton, Scrolltobottombutton, /*Lineanimation*/ } from '../../components'
 
 const Homepage = () => {
   return (
@@ -12,6 +13,16 @@ const Homepage = () => {
       <div className='homepage-about'>
       <Aboutsection />
       </div>
+      { /* <>
+        <section>
+          <Canvas>
+            <pointLight position={[10, 10, 10]} />
+            <ambientLight />
+            <Lineanimation position={[-1.2, 0, 0]} />
+            <Lineanimation position={[-1.2, 0, 0]} />
+          </Canvas>
+        </section>
+      </> */}
       <div className='homepage-side'>
         <div className='homepage-side-skills'>
         <Skills />

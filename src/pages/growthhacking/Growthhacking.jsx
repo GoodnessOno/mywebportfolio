@@ -94,6 +94,7 @@ const Growthhacking = () => {
         <h3>REVIEW AND DOCUMENTATION</h3>
         </Col>
       </Row>
+      <h1>GROWTH HACKING STRATEGIES</h1>
       <Row className='growthhacking-row1'>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
         <Growthstrategies />

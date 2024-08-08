@@ -1,0 +1,8 @@
+.lineanimation {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}

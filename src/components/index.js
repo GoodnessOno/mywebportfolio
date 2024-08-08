@@ -17,3 +17,4 @@ export { default as Aiproject } from './aiproject/Aiproject';
 export { default as Contactform } from './contactform/Contactform';
 export { default as Nessdroidweather } from './nessdroidweather/Nessdroidweather';
 export { default as Goalsally } from './goalsally/Goalsally';
+export { default as Lineanimation } from './lineanimation/Lineanimation';
