@@ -27,12 +27,12 @@ const Aboutsection = () => {
           <strong>Welcome to My Portfolio</strong>
           <br />
           <br />
-          Thank you for visiting! I am Goodness, a dedicated front-end developer with a keen interest, skills and experience in artificial intelligence. 
-          Within these digital walls, you'll discover a showcase of my expertise in crafting visually stunning and seamlessly functional web experiences.
+          Thank you for visiting! I am Goodness, a growth havker and front-end developer with a keen interest and skills in artificial intelligence. 
+          Within these digital walls, you'll discover a showcase of my expertise in crafting visually stunning and seamlessly functional web experiences and growth strategies.
           With a meticulous eye for detail and a passion for innovation, I specialize in translating concepts into captivating interfaces that leave a lasting impression. 
-          My journey in front-end development is complemented by a deep fascination with the potential of AI, driving me to explore new realms of possibility in the digital landscape.
-          By combining cutting-edge technology with elegant design principles, I strive to elevate user experiences to new heights. Each project represents a unique opportunity to push boundaries, solve complex challenges, and exceed expectations.
-          Curious to learn more about the mind behind the code? Click the <strong>"About Me"</strong> button below to delve into my professional background, skill set, and the values that drive my work. Let's connect and explore how we can collaborate to bring your digital vision to life.
+          My journey in growth hacking and front-end development is complemented by a deep fascination with the potential of AI, driving me to explore new realms of possibility in the digital and startup landscape.
+          By combining cutting-edge technology with elegant design principles, I strive to elevate companies and user experiences to new heights. Each project represents a unique opportunity to push boundaries, solve complex challenges, and exceed expectations.
+          Curious to learn more about the mind behind the code? Click the <strong>"About Me"</strong> button below to delve into my professional background, skill set, and the values that drive my work. Let's connect and explore how we can collaborate to bring your vision to life.
           <br />
           <br />
         </p>

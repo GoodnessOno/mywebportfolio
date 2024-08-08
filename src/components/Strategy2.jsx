@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import onlinedatingpic from '../assets/customer image.jpg'
+import customerjourneypic from '../assets/bridge-customerjourney.jpg'
 
 
 const Strategy1 = () => {
@@ -12,26 +12,27 @@ const Strategy1 = () => {
         <Card.Img
                 variant="top"
                 src=
-                {onlinedatingpic}
+                {customerjourneypic}
                 width={300}
-                height={200}
+                height={230}
             />
             <Card.Title style={{ marginTop: '45px', fontWeight: 'bold', fontSize: '1.5rem', color: '#333' }}>
-              GROWTH STRATEGIES -AI-POWERED CUSTOMIZATION FOR ONLINE DATING SERVICE PROVIDERS</Card.Title>
+              GROWTH OPPORTUNITIES WITHIN YOUR CUSTOMER'S JOUNEY</Card.Title>
             <Card.Text>
-            We all want to feel special and well taken care of, but many startup founders tend to miss this very important factor. 
-            Customers are the lifeblood of any business. When scaling startups, your customer's journey from the second they desire the services your industry provides to the actual purchase holds more value for industry expansion and creation than you think.
+                Your customer's journey from the second they develop a desire for the service your company provides to the comparison phase where
+                they decide if they want Company A or Company B, holds more growth opportunities than you think. In this article, I will be giving tips to effectively monitor and take advantage of the
+                growth opportunities in every step of your customer's journey.
             </Card.Text>
             <Link 
             className="btn btn-light" 
-            to='/growthhacking/ai-in-online-dating-services'
+            to="/growthhacking/pay-attention-to-your-customer's-journey"
             style={{
               backgroundColor: '#007bff',
               color: '#fff',
               padding: '10px 20px',
               textDecoration: 'none',
               borderRadius: '5px',
-              marginTop: '10px',
+              marginTop: '15px',
               display: 'inline-block'
             }}>Click to read full article
             </Link>

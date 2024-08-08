@@ -1,8 +1,10 @@
 import React from 'react'
 import './growthhacking.css'
-import { Navbar, Footer, Growthstrategies } from '../../components'
+import { Navbar, Footer, Scrolltobottombutton, Scrolltotopbutton } from '../../components'
 import headerimage from '../../assets/growth header video.mp4'
 import { Container, Row, Col } from 'react-bootstrap'
+import Strategy1 from '../../components/Strategy1'
+import Strategy2 from '../../components/Strategy2'
 
 const Growthhacking = () => {
   return (
@@ -97,10 +99,17 @@ const Growthhacking = () => {
       <h1>GROWTH HACKING STRATEGIES</h1>
       <Row className='growthhacking-row1'>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
-        <Growthstrategies />
+        <Strategy1 />
+        </Col>
+        <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
+        <Strategy2 />
         </Col>
       </Row>
       </Container>
+      <Scrolltobottombutton />
+      <Scrolltotopbutton />
+      <br />
+      <br />
       <Footer />
     </div>
   )

@@ -36,10 +36,10 @@ const Skills = () => {
         </div>
       </div>
       <div className='skill'>
-        <h4>RESPONSIVE WEB DESIGN</h4>
+        <h4>DIGITAL MARKETING</h4>
         <div className='proficiency'>
-          <div className="progress-bar" style={{ width: '90%' }}></div>
-          <span className="label">Advanced</span>
+          <div className="progress-bar" style={{ width: '70%' }}></div>
+          <span className="label">Intermediate</span>
         </div>
       </div>
       <div className='skill'>
@@ -62,7 +62,7 @@ const Skills = () => {
   const backContent = (
     <div className='skills-hardskills'>
       <div className='skill'>
-        <h4>MYSQL</h4>
+        <h4>PROJECT MANAGEMENT</h4>
         <div className='proficiency'>
           <div className="progress-bar" style={{ width: '60%' }}></div>
           <span className="label">Intermediate</span>
@@ -83,7 +83,7 @@ const Skills = () => {
         </div>
       </div>
       <div className='skill'>
-        <h4>AI & MACHINE LEARNING</h4>
+        <h4>DATA ANALYSIS</h4>
         <div className='proficiency'>
           <div className="progress-bar" style={{ width: '50%' }}></div>
           <span className="label">Intermediate</span>
@@ -107,13 +107,6 @@ const Skills = () => {
         <h4>TESTING FRAMEWORKS-JEST</h4>
         <div className='proficiency'>
           <div className="progress-bar" style={{ width: '20%' }}></div>
-          <span className="label">Beginner</span>
-        </div>
-      </div>
-      <div className='skill'>
-        <h4>REACT NATIVE</h4>
-        <div className='proficiency'>
-          <div className="progress-bar" style={{ width: '10%' }}></div>
           <span className="label">Beginner</span>
         </div>
       </div>

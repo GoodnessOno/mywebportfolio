@@ -25,7 +25,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    margin-bottom: 20rem;
+    margin-bottom: 20px;
     font-size: larger;
 }
 .growthhacking-col {
@@ -39,7 +39,7 @@
 }
 .growthhacking-col2 {
     max-width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 29rem;
     padding: 10px;
     background-color: azure;
     border-radius: 15px;
