@@ -49,6 +49,8 @@ const Growthhacking = () => {
           <br />
           <li>Product development</li>
           <br />
+          <li>Project Management</li>
+          <br />
           <li>Design - UI/UX, Front-end Development</li>
           <br />
           <li>User testing</li>
@@ -59,6 +61,8 @@ const Growthhacking = () => {
         </ul>
       </Col>
       </Row>
+      <hr />
+      <br />
       <Row className='growthhacking-row'>
       <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
         <h2>HOW I WORK!</h2>
@@ -67,36 +71,45 @@ const Growthhacking = () => {
       <Row className='growthhacking-row'>
       <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
         <h3>
-        RESEARCH AND DISCOVERY:
+        1. RESEARCH AND DISCOVERY
         </h3>
       </Col>
       <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
         <h3>
-        IDEATION:
+        2. IDEATION
         </h3>
         </Col>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
-        <h3>PLANNING</h3>
+        <h3>3. STRATEGY</h3>
         </Col>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
-        <h3>EXECUTION</h3>
+        <h3>4. PLANNING</h3>
+        </Col>
+        <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
+        <h3>5. EXECUTION</h3>
         </Col>
       </Row>
       <Row className='growthhacking-row'>
       <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
-        <h3>ANALYSIS</h3>
+        <h3>6. ANALYSIS</h3>
         </Col>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
-        <h3>OPTIMIZATION</h3>
+        <h3>7. OPTIMIZATION</h3>
         </Col>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
-        <h3>SCALING</h3>
+        <h3>8. SCALING</h3>
         </Col>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col1'>
-        <h3>REVIEW AND DOCUMENTATION</h3>
+        <h3>9. REVIEW AND DOCUMENTATION</h3>
         </Col>
       </Row>
-      <h1>GROWTH HACKING STRATEGIES</h1>
+      <hr />
+      <br />
+      <Row className='growthhacking-row2'>
+        <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col3'>
+        <h1>GROWTH HACKING STRATEGIES</h1>
+        </Col>
+      </Row>
       <Row className='growthhacking-row1'>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
         <Strategy1 />
