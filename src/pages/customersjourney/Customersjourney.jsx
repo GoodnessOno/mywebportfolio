@@ -48,7 +48,18 @@ const Customersjourney = () => {
                 <br />
                 When people are faced with the dilemma of which online dating app to sign up to, the possibility of them signing up to Cupid's company is already way higher than other companies in the same industry who are still operating in the traditional methods. I would love to hear your thoughts on this. 
                 <br />
-                2. Company Z, "Movie Database" owns and operates an relaxation  centre which comprises of a cinema and a restaurant suitable to dates. In addition to which they also have a daycare center.  
+                <br />
+                2. Company Z, "Fun Database" owns and operates an relaxation centre which comprises of a cinema and a restaurant suitable to dates. We all aware of the prevalent belief that children can be a detriment to a couple's love life if proper care is not taken.
+                Whenever the topic of going on a date comes up amongst couples with children, one "major" obstacle is "who would care for the kids while they take some time off?"
+                Fun Database decided to take this issue to the next level by offering a daycare service. They have a massive list of children's activities, from arts and crafts to games and sports, and they have a vast database of famous and well-known children's films and music and also employed professionals skilled in the art of child care.
+                So to properly cater to couples with chidren they decided to add a daycare service to their list of services. Now, I will leave to decide which restaurant or cinema you are most likely to patronize in this industry.   
+                <br />
+                <hr />
+                <br />
+                The hypothetical case studies above and many others are examples of companies that have broken out of the red ocean of competition and gotten an edge over their competitors, simply because they paid more attention to their customers journey than their destination.
+                <br />
+                <br />
+                As a startup founder, you can leverage the growth opportunities hidden within each step your customer takes in their quest for the services provided by your company and with this you would comfortably and efficiently save costs, increase your revenue, gain more customers,  and have an edge over the competition, at least for some time.
             </p>
         </div>
       </div>
