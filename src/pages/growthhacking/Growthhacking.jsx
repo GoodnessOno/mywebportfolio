@@ -5,6 +5,7 @@ import headerimage from '../../assets/growth header video.mp4'
 import { Container, Row, Col } from 'react-bootstrap'
 import Strategy1 from '../../components/Strategy1'
 import Strategy2 from '../../components/Strategy2'
+import Strategy3 from '../../components/Strategy3'
 
 const Growthhacking = () => {
   return (
@@ -116,6 +117,9 @@ const Growthhacking = () => {
         </Col>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
         <Strategy2 />
+        </Col>
+        <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
+        <Strategy3 />
         </Col>
       </Row>
       </Container>
