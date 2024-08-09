@@ -38,6 +38,7 @@ const Customersjourney = () => {
                 <br />
                 <br />
                 <b>PRACTICAL EXAMPLES</b>
+                <br />
                 I would be examiming companies from 2 different industries, the entertainment industry and the social media industry.
                 <br />
                 <br />
