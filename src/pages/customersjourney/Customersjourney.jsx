@@ -39,12 +39,16 @@ const Customersjourney = () => {
                 <br />
                 <b>PRACTICAL EXAMPLES</b>
                 I would be examiming companies from 2 different industries, the entertainment industry and the social media industry.
+                <br />
+                <br />
                 1. Company A, let's call it "Cupid's Company" operates an online dating service where people swipe left and right to get a match. 
                 Now Cupid's company decides to take it a step further by leveraging artificial intelligence. When customers sign into the app and as they make use of the app, their data in terms who they swipe right or left to are stored and used to train the ai model on what kind of suggestions to make for them.
                 In addition to all these, they decide to take it a step further, by also recommending first date ideas for budding couples when they decide to take it a step further. Since their data have both been collected and processed, there is already a 50%-70% chance that they would both agree with the suggestion provided.
                 However, it is important to mention that proper caution needs to be taken in the gathering and use of these kinds of data. 
                 <br />
-                When people are faced with the dilemma of which online dating app to sign up to, the possibility of them signing up to Cupid's company is already way higher than other companies in the same industry still operating in the traditional methods. I would love to hear your thoughts on this. 
+                When people are faced with the dilemma of which online dating app to sign up to, the possibility of them signing up to Cupid's company is already way higher than other companies in the same industry who are still operating in the traditional methods. I would love to hear your thoughts on this. 
+                <br />
+                2. Company Z, "Movie Database" owns and operates an relaxation  centre which comprises of a cinema and a restaurant suitable to dates. In addition to which they also have a daycare center.  
             </p>
         </div>
       </div>
