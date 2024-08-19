@@ -15,3 +15,4 @@ export { default as Aiinonlinedating } from './aiinonlinedating/Aiinonlinedating
 export { default as Customersjourney } from './customersjourney/Customersjourney'
 export { default as Innovativeforstartups } from './innovativeforstartups/Innovativeforstartups'
 export { default as Growthhackingforindustries } from './growthhackingforindustries/Growthhackingforindustries'
+export { default as Customerretentionstrategies } from './customerretentionstrategies/Customerretentionstrategies'

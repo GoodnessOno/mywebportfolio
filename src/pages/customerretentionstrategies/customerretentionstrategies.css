@@ -1,0 +1,108 @@
+.customerretentionstrategies {
+    position: relative;
+    z-index: 2; /* Ensure navbar is above particle background */
+    width: 100%;
+    overflow-x: hidden;
+}
+.customerretentionstrategies-image img {
+    width: 100%;
+    height: 200px;
+}
+.customerretentionstrategies-image p {
+    font-size: xx-small;
+}
+.customerretentionstrategies-image p a:hover {
+    text-decoration: underline;
+    color: #f5f8fc;
+}
+.customerretentionstrategies-content {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: content-box;
+    box-shadow: inset 2px 2px 4px 4px white;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+.customerretentionstrategies-text {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.customerretentionstrategies-text a {
+    color: #f8fbfd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.customerretentionstrategies-text a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+@media screen and (min-width: 2560px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 800px;
+    }   
+    .customerretentionstrategies-content h1 {
+        font-size: 70px;
+    }
+    .customerretentionstrategies-content h2 {
+        font-size: 55px;
+    }
+    .customerretentionstrategies-content h3 {
+        font-size: 45px;
+    }
+    .customerretentionstrategies-content p {
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 600px;
+    }   
+    .customerretentionstrategies-content h1 {
+        font-size: 45px;
+    }
+    .customerretentionstrategies-content h2 {
+        font-size: 35px;
+    }
+    .customerretentionstrategies-content h3 {
+        font-size: 25px;
+    }
+    .customerretentionstrategies-content p {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 400px;
+    } 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 350px;
+    } 
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 250px;
+    } 
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 200px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    .customerretentionstrategies-image img {
+        width: 100%;
+        height: 200px;
+    } 
+}
