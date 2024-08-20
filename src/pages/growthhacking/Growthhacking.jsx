@@ -7,6 +7,7 @@ import Strategy1 from '../../components/Strategy1'
 import Strategy2 from '../../components/Strategy2'
 import Strategy3 from '../../components/Strategy3'
 import Strategy4 from '../../components/Strategy4'
+import Strategy5 from '../../components/Strategy5'
 
 const Growthhacking = () => {
   return (
@@ -127,6 +128,9 @@ const Growthhacking = () => {
       <Row className='growthhacking-row1'>
         <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
         <Strategy4 />
+        </Col>
+        <Col xs={12} sm={12} md={6} lg={4} className='growthhacking-col2'>
+        <Strategy5 />
         </Col>
       </Row>
       </Container>
