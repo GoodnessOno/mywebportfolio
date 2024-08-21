@@ -133,10 +133,10 @@ const Growthhacking = () => {
         </Col>
       </Row>
       </Container>
+      <br />
+      <br />
       <Scrolltobottombutton />
       <Scrolltotopbutton />
-      <br />
-      <br />
       <Footer />
     </div>
   )

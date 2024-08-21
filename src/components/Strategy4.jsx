@@ -19,7 +19,6 @@ const Strategy4 = () => {
             <Card.Title style={{ marginTop: '45px', fontWeight: 'bold', fontSize: '1.5rem', color: '#333' }}>
               GROWTH STRATEGIES FOR STARTUPS ACROSS INDUSTRIES - AI, SAAS, TECH, FITNESS etc</Card.Title>
             <Card.Text>
-            While originally associated with tech startups, growth hacking strategies can be effectively applied across various industries, including health, AI, tech, fitness, SaaS, and IT.
             In this article, we will explore comprehensive growth hacking strategies tailored to different industries. 
             Whether you're in the health sector looking to increase patient engagement, an AI startup aiming to scale, or a SaaS company trying to boost user retention, these strategies will provide you with actionable insights to drive your startup's growth.
             </Card.Text>
