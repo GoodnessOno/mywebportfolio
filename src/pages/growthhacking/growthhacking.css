@@ -5,6 +5,7 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 .growthhacking-video video {
     height: 400px;
@@ -25,15 +26,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    margin-bottom: 20px;
-    font-size: larger;
-}
-.growthhacking-row2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin-bottom: 20px;
     font-size: larger;
 }
 .growthhacking-col3:hover {
@@ -59,7 +51,7 @@
 }
 .growthhacking-col2 {
     max-width: 100%;
-    margin-bottom: 30rem;
+    margin-bottom: 38rem;
     padding: 10px;
     background-color: azure;
     border-radius: 15px;
