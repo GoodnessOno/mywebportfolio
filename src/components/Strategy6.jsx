@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import unitygrowthimage  from '../assets/unitygrowth.jpg'
 
-const Strategy5 = () => {
+const Strategy6 = () => {
   return (
     <Card style={{ backgroundColor: '#f8f9fa', marginBottom: '40px' }}>
         <Card.Body style={{ marginBottom: '15rem'}}>
@@ -37,4 +37,4 @@ const Strategy5 = () => {
   )
 }
 
-export default Strategy5
+export default Strategy6
