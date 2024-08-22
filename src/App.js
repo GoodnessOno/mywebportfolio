@@ -1,7 +1,7 @@
 import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue, Aireactprojects,
   Aipersonalisedmarketing, Futurefrontend, Growthhacking, Growthhackingfrontend, Aiinonlinedating,
   Customersjourney, Innovativeforstartups, Growthhackingforindustries, Customerretentionstrategies,
-  Ideatomarketleader
+  Ideatomarketleader, Unityforgrowth
  } from './pages';
 import './App.css';
 import React, { useState, useEffect, useMemo } from 'react';
@@ -114,6 +114,7 @@ function App() {
             <Route exact path="/growthhacking/innovative-technologies-tools-and-methodologies-for-startups" element={<Innovativeforstartups />} />
             <Route exact path="/growthhacking/growthhacking-strategies-for-startups-across-industries" element={<Growthhackingforindustries />} />
             <Route exact path="/growthhacking/from-idea-to-market-leader" element={<Ideatomarketleader />} />
+            <Route exact path="/growthhacking/the-importance-of-team-work-in-startup-growth" element={<Unityforgrowth />} />
             {/* Add more routes as needed */}
           </Routes>
           {init && (
