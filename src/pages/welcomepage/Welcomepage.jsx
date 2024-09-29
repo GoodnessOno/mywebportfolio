@@ -13,13 +13,13 @@ const Welcomepage = () => {
       <div className='welcomepage-content'>
         <div className='welcomepage-greeting'>
         <h1>Hi, My name is Goodness.</h1>
-        <p>I transform designs into <b>SEEMLESS EXPERIENCES</b></p>
+        <p><b><i>Ethical Hacker | Securing Autonomous & IoT Systems in the Aviation & Maritime Sectors</i></b></p>
         <br />
-        <p>Welcome to my portfolio! <i>I'm a front-end developer</i> with an interest in integrating AI into digital experiences. 
-        Here, you'll find examples of my work showcasing intuitive user interfaces and artificial intelligence. 
+        <p>Welcome to my portfolio! <i>I'm an Ethical Hacker</i> with an interest in creating and securing sustainable autonomous and IoT solutions in the Aviation and Maritime industry through Artificial Intelligence. 
+        Here, you'll find examples of my work showcasing world standard techniques and processes in securing network, hardware and software applications as well as company infrastructures. 
         <br />
         <br />
-        Click on the <b>GET STARTED BUTTON BELOW </b> to experience how design and technology intersect to create seamless online interactions.</p>
+        Click on the <b>GET STARTED BUTTON</b> below to get a glimpse of how I secure smart and non-smart infrastructures</p>
         <br />
         <div className='welcomepage-button'>
           <Link to="/homepage">

@@ -2,23 +2,15 @@ import React from 'react'
 import './aboutsection.css'
 import myimg from '../../assets/TMF PERSONAL POTRAIT.jpg'
 import { Link } from 'react-router-dom'
-import { BsEmojiSunglassesFill } from "react-icons/bs";
+
 
 
 const Aboutsection = () => {
   return (
     <div className='aboutsection'>
-      <pre className='aboutsection-code'><b>Hello World!</b> <b><i>Unit Online and Operational speaking!</i></b> 
-          <br />
-          Welcome to my website!!!<BsEmojiSunglassesFill /> Your mission, should you choose to accept it, is to explore! 
-          <br />
-          Initiate exploration in the "ABOUT ME SECTION" by clicking the shimmering green portal below.
-          <br />
-          Unlock a treasure trove of knowledge in the "BLOG SECTION" by clicking on any of the 'CONTINUE READING' links below in the latest blog section. May your discoveries be fruitful!
-          <br />
-          <br />
-          <b><i>Your journey through <b>MY PORTFOLIO</b> awaits.</i></b>
-        </pre>
+      <div className='aboutsection-code'>
+        <p><i><b>Cybersecurity Specialist specializing in Ethical Hacking, and Securing Autonomous & IoT Systems in the Aviation and Maritime Sectors</b></i></p>
+      </div>
       <div className='aboutsection-img'>
         <img src={myimg} alt="myimg" />
       </div>

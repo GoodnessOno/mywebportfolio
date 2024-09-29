@@ -41,16 +41,12 @@
     font-size: 24px;
 }
 .aboutsection-code {
-  background-color: white;
-  font-family: monospace;
-  font-size: 13px;
-  display: flex;
-  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: aliceblue;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .aboutsection-button button {
     max-width: fit-content;
@@ -93,9 +89,6 @@
 /* Media query for iMac */
 @media only screen and (min-width: 2560px) {
   /* Styles for iMac */
-  .aboutsection-code {
-    font-size: 25px;
-  }
   .aboutsection-content p {
     font-size: 40px;
   }
@@ -116,23 +109,13 @@
 /* Media query for tablets */
 @media only screen and (max-width: 1024px) {
   /* Styles for tablets */
-  .aboutsection-code {
-    font-size: 10px;
-    box-sizing: content-box;
-    padding: 5px;
-  }
+  
   .aboutsection-content p {
     font-size: 25px;
   }
 }
 @media only screen and (max-width: 768px) {
   /* Styles for tablets */
-  .aboutsection-code {
-    font-size: 7px;
-    box-sizing: content-box;
-    padding: 5px;
-    margin-left: 30px;
-  }
   .aboutsection-content p {
     font-size: 25px;
   }
@@ -141,10 +124,6 @@
   }
 }
 @media only screen and (max-width: 425px) {
-  .aboutsection-code {
-    font-size: 0.27rem;
-    margin-left: 0;
-  }
   .aboutsection-content p {
     font-size: 15px;
   }
@@ -160,15 +139,6 @@
 /* Media query for medium phones */
 @media only screen and (max-width: 360px) {
   /* Styles for medium phones */
-  .aboutsection-code {
-    font-size: 10px;
-    box-sizing: content-box;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 350px;
-    margin-right: 15px;
-  }
   .aboutsection-content {
     border: rgb(248, 248, 252);
     border-style: double;
@@ -194,15 +164,6 @@
 /* Media query for small phones */
 @media only screen and (max-width: 375px) {
   /* Styles for small phones */
-  .aboutsection-code {
-    font-size: 0.23rem;
-    box-sizing: content-box;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
-    margin-right: 15px;
-  }
   .aboutsection-content {
     border: rgb(248, 248, 252);
     border-style: double;
@@ -229,16 +190,6 @@
  }
 }
 @media screen and (max-width: 320px) {
-  .aboutsection-code {
-    font-size: 10px;
-    box-sizing: content-box;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 450px;
-    margin-right: 15px;
-    display: none;
-  }
   .aboutsection-content {
     border: rgb(248, 248, 252);
     border-style: double;
