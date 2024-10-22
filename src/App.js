@@ -1,7 +1,7 @@
 import { Welcomepage, Homepage, Aboutme, Projects, Blog, Contactme, Jsfatigue, Aireactprojects,
   Aipersonalisedmarketing, Futurefrontend, Growthhacking, Growthhackingfrontend, Aiinonlinedating,
   Customersjourney, Innovativeforstartups, Growthhackingforindustries, Customerretentionstrategies,
-  Ideatomarketleader, Unityforgrowth
+  Ideatomarketleader, Unityforgrowth, Owaspjuicepentest
  } from './pages';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -22,6 +22,7 @@ function App() {
             <Route exact path='/blog/integrating-ai-into-react-projects' element={<Aireactprojects />} />
             <Route exact path='/blog/leveraging-ai-for-personalised-marketing' element={<Aipersonalisedmarketing />} />
             <Route exact path='/blog/future-of-frontend-development' element={<Futurefrontend />} />
+            <Route exact path='/blog/owasp-juice-shop-pentesting' element={<Owaspjuicepentest />} />
             <Route exact path='/blog/integrating-growth-hacking-for-frontend-development' element={<Growthhackingfrontend />} />
             <Route exact path="/blog/proven-growth-hacking-strategies-to-optimize-customer-retention" element={<Customerretentionstrategies />} />
             <Route exact path='/growthhacking/ai-in-online-dating-services' element={<Aiinonlinedating />} />

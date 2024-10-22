@@ -18,3 +18,4 @@ export { default as Growthhackingforindustries } from './growthhackingforindustr
 export { default as Customerretentionstrategies } from './customerretentionstrategies/Customerretentionstrategies'
 export { default as Ideatomarketleader } from './ideatomarketleader/Ideatomarketleader'
 export { default as Unityforgrowth } from './unityforgrowth/Unityforgrowth'
+export { default as Owaspjuicepentest } from './owaspjuicepentest/owaspjuicepentest'
